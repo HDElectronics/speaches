@@ -9,7 +9,7 @@ services:
         - linux/arm64
     restart: unless-stopped
     ports:
-      - 8000:8000
+      - 8001:8000
     develop:
       watch:
         - action: rebuild
